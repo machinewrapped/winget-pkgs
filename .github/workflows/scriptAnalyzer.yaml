@@ -8,11 +8,13 @@ on:
       - "**/*.ps1"
       - "**/*.psm1"
       - "**/*.psd1"
+      - ".github/workflows/scriptAnalyzer.yaml"
   push:
     paths:
       - "**/*.ps1"
       - "**/*.psm1"
       - "**/*.psd1"
+      - ".github/workflows/scriptAnalyzer.yaml"
 
 permissions:
   contents: read # Needed to check out the code
